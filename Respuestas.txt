@@ -1,0 +1,19 @@
+* ¿Qué sucedió cuando se intento hacer el segundo push?
+Hubo conflictos.
+
+* ¿Qué acciones hay que tomar antes de realizar el push?
+Previamente debemos traer los ultimos cambios que se hicieron para no romper el codigo.
+
+* ¿Qué estrategia propondrían para evitar esta situación?
+Se deberia primero traerte los ultimos cambios aplicados al trabajo, y trabajar sobre ese codigo. De
+esta manera evitas tener problemas al pushear.
+Nunca escribir codigo en un proyecto que aun no fue actualizado.
+
+*  En el repositorio local ejecutar el siguiente comando git checkout -b develop
+¿Qué acción realiza el parámetro -b?
+Cambia de rama (branch)
+
+* ¿Qué diferencias notaron en el proceso?
+
+
+* ¿Qué estrategia utilizarían para evitar conflictos?
