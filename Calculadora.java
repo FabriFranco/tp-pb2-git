@@ -18,13 +18,13 @@ restar /n 3 para multiplicar /n 4 para dividir");
 switch(opcion)
 {
 case 1:
-resultado = a+b;
+resultado = a*b;
 break;
 case 2:
 resultado = a-b;
 break;
 case 3:
-resultado = a*b;
+resultado = a+b;
 break;
 case 4:
 resultado = a/b;
