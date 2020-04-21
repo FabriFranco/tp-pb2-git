@@ -18,17 +18,36 @@ restar /n 3 para multiplicar /n 4 para dividir");
 switch(opcion)
 {
 case 1:
-resultado = a*b;
+	multiplica(operador1,operador2);
 break;
 case 2:
-resultado = a-b;
+	resta(operador1,operador2);
 break;
 case 3:
-resultado = a+b;
+	suma(operador1,operador2);
 break;
 case 4:
-resultado = a/b;
+divide(operador1,operador2);
 break;
 }
 System.out.println("El resultado es " + resultado.toString());
 }
+ 
+ public void divide(int operador1, int operador2) {
+     resultado=(operador1/operador2);
+    
+ }
+ public void multiplica(int operador1, int operador2) {
+     resultado=operador1*operador2;
+    
+ }
+ public void resta(int operador1, int operador2) {
+     resultado=operador1-operador2;
+    
+ }
+ public void suma(int operador1, int operador2) {
+     resultado=operador1+operador2;
+
+ }
+ 
+
