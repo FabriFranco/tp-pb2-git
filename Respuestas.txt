@@ -14,6 +14,6 @@ Nunca escribir codigo en un proyecto que aun no fue actualizado.
 Cambia de rama (branch)
 
 * ¿Qué diferencias notaron en el proceso?
-
+ASD
 
 * ¿Qué estrategia utilizarían para evitar conflictos?
